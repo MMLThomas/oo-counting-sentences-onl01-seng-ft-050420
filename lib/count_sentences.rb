@@ -19,13 +19,7 @@ class String
 
   def count_sentences
     sentences = 0
-    i = 0
-    while i < self.length 
-      if self[i] == "." || self[i] == "!" || self[i] == "?"
-        sentences += 1
-      end
-      i += 1
-    end
+    self
     sentences
   end
   
