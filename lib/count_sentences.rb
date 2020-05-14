@@ -20,7 +20,7 @@ class String
   def count_sentences
     sentences = 0
     for i in self
-      if i == "." || "!" || "?"
+      if i == "." || i == "!" || i == "?"
         sentences += 1
       end
     end
